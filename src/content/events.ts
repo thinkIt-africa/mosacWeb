@@ -1,0 +1,153 @@
+import type { MosacEvent } from "@/types/content";
+
+/**
+ * Events from "01 — MOSAC Website_ Complete Page Copy & Editorial Content",
+ * sections 03, 05 and 06. Historical entries never appear as upcoming.
+ * No upcoming rally events are listed until the club confirms a calendar (D09).
+ */
+export const events: MosacEvent[] = [
+  {
+    slug: "thinkit-fmu-esports-2026",
+    title: "thinkIT FMU Esports Championship 2026",
+    discipline: "esports",
+    startDate: "2026-09-25",
+    endDate: "2026-12-20",
+    dateLabel: "2026 season, finale 18–20 Dec",
+    district: "Kampala",
+    venue: "Fun Station Hub, Metroplex Naalya",
+    status: "running",
+    organiserRole: "Technical organiser",
+    summary:
+      "MOSAC was named technical organiser for the thinkIT FMU Esports Championship, with FMU sanctioning the series.",
+    cover: "esportsHero",
+    gallery: ["esportsLaunchGroup", "esportsRound2", "esportsPanel", "esportsHandover", "esportsBackdrop", "esportsProgrammes"],
+    verification: "verified-public",
+  },
+  {
+    slug: "fmu-esports-2025",
+    title: "FMU Esports 2025",
+    discipline: "esports",
+    startDate: "2025-01-01",
+    dateLabel: "2025",
+    status: "archived",
+    summary: "FMU’s four-round rally simulation championship crowned Isaac ‘Jua Kali’ Katende.",
+    result: { label: "Champion", value: "Isaac ‘Jua Kali’ Katende" },
+    sources: [
+      {
+        label: "FIA",
+        url: "https://www.fia.com/news/esports-championship-organised-ugandan-asn-promotes-motor-sport-participation",
+      },
+    ],
+    verification: "verified-public",
+  },
+  {
+    slug: "kabalega-rally-2024",
+    title: "Kabalega Rally 2024",
+    discipline: "rally",
+    startDate: "2024-11-22",
+    endDate: "2024-11-24",
+    district: "Hoima",
+    status: "archived",
+    organiserRole: "Co-organiser with UMOSPOC",
+    summary: "FMU described the Hoima event of 22–24 November as co-organised by MOSAC and UMOSPOC.",
+    sources: [{ label: "FMU", url: "https://motorsportuganda.com/kabalega-rally-hoima-2024/" }],
+    verification: "verified-public",
+  },
+  {
+    slug: "kigezi-boona-2022",
+    title: "Kigezi Boona 2022",
+    discipline: "rally",
+    startDate: "2022-12-01",
+    dateLabel: "December 2022",
+    district: "Rukungiri",
+    status: "archived",
+    organiserRole: "Organiser",
+    summary:
+      "MOSAC organised a title-deciding rally in the Rukungiri area. Byron Rugomoka and navigator Hakim Mwanda won.",
+    strapline: "A championship chapter in southwestern Uganda.",
+    body: [
+      {
+        heading: "",
+        text: "In December 2022, crews took on the rally roads of the Rukungiri area for a MOSAC-organised event that contributed to the national title contest. Byron Rugomoka and co-driver Hakim Mwanda took the win, making it a fitting final chapter to a demanding season.",
+      },
+      {
+        heading: "The result",
+        text: "Press reporting places Jonas Kansiime/Ivan Tushabe second and Mark Lubega/Daniel Mbabazi third.",
+      },
+      {
+        heading: "Beyond the rally",
+        text: "Reporting linked the event with commemoration of Wilberforce Pole Pole and a plan to support a patient shelter.",
+      },
+    ],
+    cover: "heroKigeziArch",
+    sources: [
+      {
+        label: "Uganda Radio Network",
+        url: "https://www.ugandaradionetwork.net/story/rugomoka-wins-kigezi-boona-motor-rally-",
+      },
+    ],
+    gallery: ["heroKigeziArch", "kigezi-2022-rainbow", "kigezi-2022-stage-action", "kigezi-2022-yellow-car", "kigezi-2022-spectator-stage", "kigeziCelebration", "kigezi-2022-winners-car", "kigezi-2022-crew-pair", "kigeziCrew"],
+    result: { label: "Winners", value: "Byron Rugomoka / Hakim Mwanda" },
+    verification: "verified-public",
+  },
+  {
+    slug: "jinja-rally-2021",
+    title: "Jinja Rally 2021",
+    discipline: "rally",
+    startDate: "2021-11-20",
+    dateLabel: "November 2021",
+    district: "Jinja",
+    status: "archived",
+    organiserRole: "Organiser",
+    summary: "MOSAC organised the late-November championship rally in Jinja.",
+    cover: "jinja-2021-speaker",
+    gallery: ["jinja-2021-speaker", "jinja-2021-presentation", "jinja-2021-cheques", "jinja-2021-address", "jinja-2021-guests"],
+    verification: "pending",
+  },
+  {
+    slug: "kapeeka-autocross-2019",
+    title: "Kapeeka Autocross 2019",
+    discipline: "autocross",
+    startDate: "2019-08-17",
+    dateLabel: "2019",
+    district: "Nakaseke",
+    status: "archived",
+    summary: "Press coverage records Rajiv Ruparelia taking victory in a MOSAC event in Nakaseke, with more than 30 crews participating.",
+    cover: "kapeeka-2019-mud-splash",
+    sources: [
+      {
+        label: "Eagle Online",
+        url: "https://eagle.co.ug/2019/08/19/rajiv-wins-mosac-autocross-championship-in-kapeeka/",
+      },
+    ],
+    gallery: ["kapeeka-2019-mud-splash", "kapeeka-2019-mud-red-car", "kapeeka-2019-celebration", "kapeeka-2019-handshake", "kapeekaCrew", "kapeeka-2019-driver"],
+    result: { label: "Winner", value: "Rajiv Ruparelia" },
+    verification: "verified-public",
+  },
+  {
+    slug: "oryx-elgon-2018",
+    title: "Oryx Elgon 2018",
+    discipline: "rally",
+    startDate: "2018-01-01",
+    dateLabel: "2018",
+    district: "Mbale",
+    status: "archived",
+    summary:
+      "The archive preserves rally images; subsequent coverage recalls the Mbale event as the title-deciding round in Susan Muwonge’s championship season.",
+    cover: "elgonStage",
+    gallery: ["elgonStage", "elgon-2018-water-splash", "elgon-2018-spectator-stage", "elgon-2018-arena", "elgon-2018-start-ramp", "elgon-2018-crowd"],
+    verification: "pending",
+  },
+  {
+    slug: "oryx-lukaya-2017",
+    title: "Oryx Lukaya 2017",
+    discipline: "rally",
+    startDate: "2017-01-01",
+    dateLabel: "2017",
+    status: "archived",
+    summary: "The supplied club photo archive preserves a rally collection bearing this event name.",
+    cover: "lukaya-2017-dust",
+    gallery: ["lukaya-2017-dust", "lukaya-2017-service-park", "lukaya-2017-podium-car", "lukaya-2017-drivers", "lukaya-2017-flag", "lukaya-2017-trophies"],
+    verification: "pending",
+  },
+];
